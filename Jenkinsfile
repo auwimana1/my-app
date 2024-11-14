@@ -6,7 +6,7 @@ pipeline {
     }
 
     stages {
-        stage("Build and Push image1"){
+        stage("Build and Push image"){
             steps{
                 script {
                    // This step should not normally be used in your script. Consult the inline help for details.
